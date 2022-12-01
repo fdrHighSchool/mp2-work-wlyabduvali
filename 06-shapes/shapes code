@@ -1,0 +1,37 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Shapes!");
+    square(5);
+    rectangle(5, 8);
+    righttriangle(6);
+  }
+  public static void square(int s) {
+    for (int row = 0; row < s; row++){
+      for (int col = 0; col < s; col++){
+        System.out.print("* ");
+      }
+      System.out.println();
+    }
+  System.out.println();
+  }
+  
+  public static void rectangle(int w, int l) {
+    for (int row = 0; row < w; row++){
+      for (int col = 0; col < l; col++){
+        System.out.print("* ");
+      }
+      System.out.println();
+    }
+  System.out.println();
+  }
+  
+  public static void righttriangle(int rt) {
+    for (int row = 1; row < rt; row+=2){
+      for (int col = 0; col < row; col++){
+        System.out.print("* ");
+      }
+      System.out.println();
+    }
+  }
+
+}
