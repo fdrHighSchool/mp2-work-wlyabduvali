@@ -1,0 +1,8 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println(divBy3(3));
+  }
+  public static boolean divBy3(int n) {
+    return n % 3 == 0;
+  }
+}
